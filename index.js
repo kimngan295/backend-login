@@ -33,7 +33,7 @@ initAPIRoute(app)
 const PORT = 8000;
 const HOST_NAME = process.env.HOST_NAME || 'localhost'
 
-app.listen(port, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server is running on http://0.0.0.0:${PORT}`);
 });
 
