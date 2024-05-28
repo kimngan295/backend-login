@@ -30,7 +30,7 @@ app.use(bodyParserMiddlewareUrlencoded)
 initAPIRoute(app)
 
 // Server setup
-const PORT = process.env.PORT || 5000;
+const PORT = 8000;
 const HOST_NAME = process.env.HOST_NAME || 'localhost'
 
 app.listen(PORT, HOST_NAME, () => {
