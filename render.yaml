@@ -1,0 +1,3 @@
+services:
+  - name: deploy-render
+    port: 8000
